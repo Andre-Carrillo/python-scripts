@@ -1,8 +1,8 @@
 import json
 import matplotlib.pyplot as plt
-data_ubication="C://Users\carri\Documents\VSFolder\p5-and-processing\covidsimulator\data//at_1283.json"
+data_location="C://Users\carri\Documents\VSFolder\p5-and-processing\covidsimulator\data//at_1283.json"
 
-with open(data_ubication) as f:
+with open(data_location) as f:
     data = json.load(f)
 data=data["data"]
 
