@@ -1,9 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-# with open('simple.html', 'r', encoding='utf-8') as simple:
-#     soup = BeautifulSoup(simple, 'lxml')
-# url='https://www.coinbase.com/price'
 url='https://coinmarketcap.com/'
 
 doc = requests.get(url)
