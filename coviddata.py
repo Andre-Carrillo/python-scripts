@@ -16,3 +16,4 @@ data_y_inmune=[i["inmune"] for i in data]
 plt.stackplot(data_x, data_y_ill, data_y_healthy, data_y_inmune, colors=["#c81230", "#161991", "#18af21", "#5c5a58"])
 
 plt.show()
+#this is a comment
