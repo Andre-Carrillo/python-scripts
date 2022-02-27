@@ -1,8 +1,8 @@
 import sympy as sp
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import math
 
-numbers=1000
+numbers=10
 
 def primecounter(n):
     """
@@ -16,6 +16,7 @@ def primecounter(n):
 
 primescounted = [primecounter(i) for i in range(2, numbers+1)]
 primestheorem = [n/math.log(n) for n in range(2, numbers+1)]
-plt.plot(range(2, numbers+1), primestheorem)
-plt.plot(range(2, numbers+1), primescounted)
-plt.show()
+# plt.plot(range(2, numbers+1), primestheorem)
+# plt.plot(range(2, numbers+1), primescounted)
+# plt.show()
+print(primescounted)
