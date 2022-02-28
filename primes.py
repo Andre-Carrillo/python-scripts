@@ -20,5 +20,5 @@ def n_primes(n):
         i+=1
     return primes
 
-print(n_primes(50))
+print(n_primes(100))
 

@@ -95,7 +95,7 @@ function setup() {
   n_=7
   face = new Grid(n_, size_length);
   face.fillgrid();
-
+  
 }
 
 function draw() {
